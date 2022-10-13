@@ -1,0 +1,7 @@
+// Comand
+npx playwright codegen todomvc.com // Opens the url and allows the recording of actions, this can be used as code.
+npx playwright test --shard-1/3 // Execute 30% of tests in one machine
+npx playwright test --workers 1 // Only one worker for execute tests.
+
+// Plugin
+Headless Recorder // Plugin that records actions and executes, for Google Chrome.
